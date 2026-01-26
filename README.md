@@ -17,6 +17,15 @@ This webpage must include:
 
 A `hero` is a section of a webpage that is usually `75vh` to `100vh` with a title and a one-sentence description of a product. In the example above, we have the Notion's website's hero.
 
+## File Structure
+```
+.
+├── ./fonts  
+├── ./images
+├── ./index.html
+├── ./styles.css
+└── ./index.js
+```
 ## Q&A (PLEASE READ!)
 
 ### How do I submit the project?
