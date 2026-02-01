@@ -1,1 +1,77 @@
-
+nav{
+  padding:25px;
+  margin:0px;
+  position:fixed;
+  font-size:20px;;
+  background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url('images/aesthetic.jpeg');
+  background-size:cover;
+  background-position:center;
+  top:0;
+  left:0;
+  right:0;
+  align-items: left;
+}
+nav *{
+  display:inline;
+}
+nav li{
+  margin:8px;
+}
+nav li a:link, a:visited{
+  color:white;
+}
+nav li a:hover{
+  color:silver;
+}
+nav li a{
+  text-decoration: none;
+}
+body{
+  height:100%;
+  height:125vh;
+  font-family: "Garamond";
+}
+.main{
+  margin-top:80px;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  width:100%;
+  aspect-ratio: 5/2;
+  background-color: silver;
+}
+.hero{
+  text-align: left;
+  padding:10px;
+  padding-left:20px;
+  width:30%;
+}
+h1{
+  font-size:50px;
+}
+h4 {
+  font-size:20px;
+  font-weight:normal;
+}
+.hero-img {
+  width:70%;
+  height:100%;
+  text-align: right;
+  padding:25px;
+  overflow:hidden;
+}
+.hero-img img {
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  display:block;
+}
+.main2 {
+  background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/circles.jpg');
+  background-size:cover;
+  background-position:center;
+  padding:50px;
+  font-size:20px;
+  text-align:center;
+  color:white;
+}
