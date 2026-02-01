@@ -21,7 +21,7 @@ nav li a:link, a:visited{
   color:white;
 }
 nav li a:hover{
-  color:silver;
+  color:gold;
 }
 nav li a{
   text-decoration: none;
@@ -74,4 +74,11 @@ h4 {
   font-size:20px;
   text-align:center;
   color:white;
+}
+h3{
+  font-size:25px;
+  color:white;
+}
+h3:hover{
+  color:gold;
 }
